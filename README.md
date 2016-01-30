@@ -40,5 +40,18 @@ const button = <button/>
 <div>
   <Clone element={button} onClick={handleClick}/>
 </div>
+
+// it's mostly useful for passing extra props to children
+// like animating the children of a React Router
+// route component's children (gotta add that key)
+<Clone
+  element={this.props.children}
+  key={location.pathname}
+/>
+
+// or iterating over children
+React.Children.map(this.props.children, (child, index) => {
+  return <Clone element={child} index={index}/>
+})
 ```
 
