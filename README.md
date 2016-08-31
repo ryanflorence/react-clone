@@ -19,10 +19,10 @@ import Clone from 'react-clone'
 var Clone = require('react-clone').default
 ```
 
-The UMD build is also available on [npmcdn](https://npmcdn.com). You can find the library on `window.ReactClone`.
+The UMD build is also available on [unpkg](https://unpkg.com). You can find the library on `window.ReactClone`.
 
 ```html
-<script src="https://npmcdn.com/react-clone/umd/ReactClone.min.js"></script>
+<script src="https://unpkg.com/react-clone/umd/ReactClone.min.js"></script>
 ```
 
 
